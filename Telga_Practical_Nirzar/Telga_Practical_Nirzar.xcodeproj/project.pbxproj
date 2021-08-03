@@ -1,0 +1,1082 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2A4905F9BA727BCAF11CAD4 /* Pods_Telga_Practical_Nirzar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0EF8F07A297EA703CC94621 /* Pods_Telga_Practical_Nirzar.framework */; };
+		E668B26226B9C71A00BA0E6D /* Telga_Practical_NirzarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E668B26126B9C71A00BA0E6D /* Telga_Practical_NirzarTests.swift */; };
+		E668B26D26B9C71A00BA0E6D /* Telga_Practical_NirzarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E668B26C26B9C71A00BA0E6D /* Telga_Practical_NirzarUITests.swift */; };
+		E668B2C026B9C7CA00BA0E6D /* ApiCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = E668B27E26B9C7CA00BA0E6D /* ApiCall.swift */; };
+		E668B2C126B9C7CA00BA0E6D /* MultiPart.swift in Sources */ = {isa = PBXBuildFile; fileRef = E668B27F26B9C7CA00BA0E6D /* MultiPart.swift */; };
+		E668B2C226B9C7CA00BA0E6D /* JsonSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E668B28226B9C7CA00BA0E6D /* JsonSerializer.swift */; };
+		E668B2C326B9C7CA00BA0E6D /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E668B28426B9C7CA00BA0E6D /* ArrayExtensions.swift */; };
+		E668B2C426B9C7CA00BA0E6D /* FloatExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E668B28526B9C7CA00BA0E6D /* FloatExtensions.swift */; };
+		E668B2C526B9C7CA00BA0E6D /* ColorChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = E668B28626B9C7CA00BA0E6D /* ColorChange.swift */; };
+		E668B2C626B9C7CA00BA0E6D /* PlaceholderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E668B28726B9C7CA00BA0E6D /* PlaceholderTextView.swift */; };
+		E668B2C726B9C7CA00BA0E6D /* DictionaryExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E668B28826B9C7CA00BA0E6D /* DictionaryExtensions.swift */; };
+		E668B2C826B9C7CA00BA0E6D /* CustomSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E668B28926B9C7CA00BA0E6D /* CustomSegmentedControl.swift */; };
+		E668B2C926B9C7CA00BA0E6D /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E668B28A26B9C7CA00BA0E6D /* StringExtensions.swift */; };
+		E668B2CA26B9C7CA00BA0E6D /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E668B28B26B9C7CA00BA0E6D /* UIViewControllerExtension.swift */; };
+		E668B2CB26B9C7CA00BA0E6D /* ExtensionImagePickerOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = E668B28C26B9C7CA00BA0E6D /* ExtensionImagePickerOption.swift */; };
+		E668B2CC26B9C7CA00BA0E6D /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E668B28D26B9C7CA00BA0E6D /* Extension.swift */; };
+		E668B2CD26B9C7CA00BA0E6D /* DoubleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E668B28E26B9C7CA00BA0E6D /* DoubleExtensions.swift */; };
+		E668B2CE26B9C7CA00BA0E6D /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E668B28F26B9C7CA00BA0E6D /* ViewExtension.swift */; };
+		E668B2CF26B9C7CA00BA0E6D /* MonthYearPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E668B29026B9C7CA00BA0E6D /* MonthYearPickerView.swift */; };
+		E668B2D026B9C7CA00BA0E6D /* IntExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E668B29126B9C7CA00BA0E6D /* IntExtensions.swift */; };
+		E668B2D126B9C7CA00BA0E6D /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E668B29226B9C7CA00BA0E6D /* DateExtensions.swift */; };
+		E668B2D226B9C7CA00BA0E6D /* OptionalExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E668B29326B9C7CA00BA0E6D /* OptionalExtensions.swift */; };
+		E668B2D326B9C7CA00BA0E6D /* GeoFencingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E668B29526B9C7CA00BA0E6D /* GeoFencingManager.swift */; };
+		E668B2D426B9C7CA00BA0E6D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E668B29726B9C7CA00BA0E6D /* Constants.swift */; };
+		E668B2D526B9C7CA00BA0E6D /* UISideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E668B29926B9C7CA00BA0E6D /* UISideMenuNavigationController.swift */; };
+		E668B2D626B9C7CA00BA0E6D /* SideMenuManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E668B29A26B9C7CA00BA0E6D /* SideMenuManager.swift */; };
+		E668B2D726B9C7CA00BA0E6D /* SideMenuTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = E668B29B26B9C7CA00BA0E6D /* SideMenuTransition.swift */; };
+		E668B2D826B9C7CA00BA0E6D /* UITableViewVibrantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E668B29C26B9C7CA00BA0E6D /* UITableViewVibrantCell.swift */; };
+		E668B2D926B9C7CA00BA0E6D /* ConnectionCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = E668B29E26B9C7CA00BA0E6D /* ConnectionCheck.swift */; };
+		E668B2DD26B9C7CA00BA0E6D /* Montserrat-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E668B2A526B9C7CA00BA0E6D /* Montserrat-LightItalic.ttf */; };
+		E668B2DE26B9C7CA00BA0E6D /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E668B2A626B9C7CA00BA0E6D /* Montserrat-Medium.ttf */; };
+		E668B2DF26B9C7CA00BA0E6D /* Montserrat-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E668B2A726B9C7CA00BA0E6D /* Montserrat-BoldItalic.ttf */; };
+		E668B2E026B9C7CA00BA0E6D /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E668B2A826B9C7CA00BA0E6D /* Montserrat-Light.ttf */; };
+		E668B2E126B9C7CA00BA0E6D /* Montserrat-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E668B2A926B9C7CA00BA0E6D /* Montserrat-ThinItalic.ttf */; };
+		E668B2E226B9C7CA00BA0E6D /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E668B2AA26B9C7CA00BA0E6D /* Montserrat-ExtraLight.ttf */; };
+		E668B2E326B9C7CA00BA0E6D /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E668B2AB26B9C7CA00BA0E6D /* Montserrat-Thin.ttf */; };
+		E668B2E426B9C7CA00BA0E6D /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E668B2AC26B9C7CA00BA0E6D /* Montserrat-Bold.ttf */; };
+		E668B2E526B9C7CA00BA0E6D /* Montserrat-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E668B2AD26B9C7CA00BA0E6D /* Montserrat-MediumItalic.ttf */; };
+		E668B2E626B9C7CA00BA0E6D /* Montserrat-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E668B2AE26B9C7CA00BA0E6D /* Montserrat-BlackItalic.ttf */; };
+		E668B2E726B9C7CA00BA0E6D /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E668B2AF26B9C7CA00BA0E6D /* Montserrat-SemiBold.ttf */; };
+		E668B2E826B9C7CA00BA0E6D /* Montserrat-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E668B2B026B9C7CA00BA0E6D /* Montserrat-ExtraLightItalic.ttf */; };
+		E668B2E926B9C7CA00BA0E6D /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E668B2B126B9C7CA00BA0E6D /* Montserrat-ExtraBold.ttf */; };
+		E668B2EA26B9C7CA00BA0E6D /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = E668B2B226B9C7CA00BA0E6D /* OFL.txt */; };
+		E668B2EB26B9C7CA00BA0E6D /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E668B2B326B9C7CA00BA0E6D /* Montserrat-Black.ttf */; };
+		E668B2EC26B9C7CA00BA0E6D /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E668B2B426B9C7CA00BA0E6D /* Montserrat-Regular.ttf */; };
+		E668B2ED26B9C7CA00BA0E6D /* Montserrat-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E668B2B526B9C7CA00BA0E6D /* Montserrat-Italic.ttf */; };
+		E668B2EE26B9C7CA00BA0E6D /* Montserrat-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E668B2B626B9C7CA00BA0E6D /* Montserrat-SemiBoldItalic.ttf */; };
+		E668B2EF26B9C7CA00BA0E6D /* Montserrat-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E668B2B726B9C7CA00BA0E6D /* Montserrat-ExtraBoldItalic.ttf */; };
+		E668B2F026B9C7CA00BA0E6D /* NotificationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E668B2BB26B9C7CA00BA0E6D /* NotificationDelegate.swift */; };
+		E668B2F126B9C7CA00BA0E6D /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E668B2BC26B9C7CA00BA0E6D /* Utility.swift */; };
+		E668B2F226B9C7CA00BA0E6D /* FontChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = E668B2BD26B9C7CA00BA0E6D /* FontChange.swift */; };
+		E668B2F326B9C7CA00BA0E6D /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E668B2BF26B9C7CA00BA0E6D /* Color.xcassets */; };
+		E668B37826B9C7DD00BA0E6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E668B2F526B9C7DD00BA0E6D /* Assets.xcassets */; };
+		E668B37926B9C7DD00BA0E6D /* logo_animated.gif in Resources */ = {isa = PBXBuildFile; fileRef = E668B2F726B9C7DD00BA0E6D /* logo_animated.gif */; };
+		E668B38A26B9C7DD00BA0E6D /* LaunchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E668B31626B9C7DD00BA0E6D /* LaunchVC.swift */; };
+		E668B39226B9C7DD00BA0E6D /* ForgotPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E668B32326B9C7DD00BA0E6D /* ForgotPasswordVC.swift */; };
+		E668B39326B9C7DD00BA0E6D /* ForgotPasswordModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E668B32526B9C7DD00BA0E6D /* ForgotPasswordModal.swift */; };
+		E668B3A126B9C7DD00BA0E6D /* CheckMailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E668B34026B9C7DD00BA0E6D /* CheckMailVC.swift */; };
+		E668B3BB26B9C7DD00BA0E6D /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E668B36926B9C7DD00BA0E6D /* LoginVC.swift */; };
+		E668B3BC26B9C7DD00BA0E6D /* LoginModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E668B36B26B9C7DD00BA0E6D /* LoginModal.swift */; };
+		E668B3BF26B9C7DD00BA0E6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E668B37126B9C7DD00BA0E6D /* AppDelegate.swift */; };
+		E668B3C026B9C7DD00BA0E6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E668B37326B9C7DD00BA0E6D /* LaunchScreen.storyboard */; };
+		E668B3C126B9C7DD00BA0E6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E668B37526B9C7DD00BA0E6D /* Main.storyboard */; };
+		E668B3C726B9D16700BA0E6D /* DashboardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E668B3C626B9D16700BA0E6D /* DashboardVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E668B25E26B9C71A00BA0E6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E668B23F26B9C71700BA0E6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E668B24626B9C71700BA0E6D;
+			remoteInfo = Telga_Practical_Nirzar;
+		};
+		E668B26926B9C71A00BA0E6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E668B23F26B9C71700BA0E6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E668B24626B9C71700BA0E6D;
+			remoteInfo = Telga_Practical_Nirzar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		47276DCFA8F70ED92EA268FD /* Pods-Telga_Practical_Nirzar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Telga_Practical_Nirzar.release.xcconfig"; path = "Target Support Files/Pods-Telga_Practical_Nirzar/Pods-Telga_Practical_Nirzar.release.xcconfig"; sourceTree = "<group>"; };
+		918C6000D717543952B14AA0 /* Pods-Telga_Practical_Nirzar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Telga_Practical_Nirzar.debug.xcconfig"; path = "Target Support Files/Pods-Telga_Practical_Nirzar/Pods-Telga_Practical_Nirzar.debug.xcconfig"; sourceTree = "<group>"; };
+		B0EF8F07A297EA703CC94621 /* Pods_Telga_Practical_Nirzar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Telga_Practical_Nirzar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E668B24726B9C71700BA0E6D /* Telga_Practical_Nirzar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Telga_Practical_Nirzar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E668B25826B9C71900BA0E6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E668B25D26B9C71A00BA0E6D /* Telga_Practical_NirzarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Telga_Practical_NirzarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E668B26126B9C71A00BA0E6D /* Telga_Practical_NirzarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Telga_Practical_NirzarTests.swift; sourceTree = "<group>"; };
+		E668B26326B9C71A00BA0E6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E668B26826B9C71A00BA0E6D /* Telga_Practical_NirzarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Telga_Practical_NirzarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E668B26C26B9C71A00BA0E6D /* Telga_Practical_NirzarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Telga_Practical_NirzarUITests.swift; sourceTree = "<group>"; };
+		E668B26E26B9C71A00BA0E6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E668B27E26B9C7CA00BA0E6D /* ApiCall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiCall.swift; sourceTree = "<group>"; };
+		E668B27F26B9C7CA00BA0E6D /* MultiPart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiPart.swift; sourceTree = "<group>"; };
+		E668B28126B9C7CA00BA0E6D /* JsonSerializerSwift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonSerializerSwift.h; sourceTree = "<group>"; };
+		E668B28226B9C7CA00BA0E6D /* JsonSerializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonSerializer.swift; sourceTree = "<group>"; };
+		E668B28426B9C7CA00BA0E6D /* ArrayExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
+		E668B28526B9C7CA00BA0E6D /* FloatExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatExtensions.swift; sourceTree = "<group>"; };
+		E668B28626B9C7CA00BA0E6D /* ColorChange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorChange.swift; sourceTree = "<group>"; };
+		E668B28726B9C7CA00BA0E6D /* PlaceholderTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceholderTextView.swift; sourceTree = "<group>"; };
+		E668B28826B9C7CA00BA0E6D /* DictionaryExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryExtensions.swift; sourceTree = "<group>"; };
+		E668B28926B9C7CA00BA0E6D /* CustomSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSegmentedControl.swift; sourceTree = "<group>"; };
+		E668B28A26B9C7CA00BA0E6D /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		E668B28B26B9C7CA00BA0E6D /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		E668B28C26B9C7CA00BA0E6D /* ExtensionImagePickerOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionImagePickerOption.swift; sourceTree = "<group>"; };
+		E668B28D26B9C7CA00BA0E6D /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		E668B28E26B9C7CA00BA0E6D /* DoubleExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoubleExtensions.swift; sourceTree = "<group>"; };
+		E668B28F26B9C7CA00BA0E6D /* ViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		E668B29026B9C7CA00BA0E6D /* MonthYearPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthYearPickerView.swift; sourceTree = "<group>"; };
+		E668B29126B9C7CA00BA0E6D /* IntExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntExtensions.swift; sourceTree = "<group>"; };
+		E668B29226B9C7CA00BA0E6D /* DateExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
+		E668B29326B9C7CA00BA0E6D /* OptionalExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionalExtensions.swift; sourceTree = "<group>"; };
+		E668B29526B9C7CA00BA0E6D /* GeoFencingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeoFencingManager.swift; sourceTree = "<group>"; };
+		E668B29726B9C7CA00BA0E6D /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E668B29926B9C7CA00BA0E6D /* UISideMenuNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISideMenuNavigationController.swift; sourceTree = "<group>"; };
+		E668B29A26B9C7CA00BA0E6D /* SideMenuManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuManager.swift; sourceTree = "<group>"; };
+		E668B29B26B9C7CA00BA0E6D /* SideMenuTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuTransition.swift; sourceTree = "<group>"; };
+		E668B29C26B9C7CA00BA0E6D /* UITableViewVibrantCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewVibrantCell.swift; sourceTree = "<group>"; };
+		E668B29E26B9C7CA00BA0E6D /* ConnectionCheck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionCheck.swift; sourceTree = "<group>"; };
+		E668B2A526B9C7CA00BA0E6D /* Montserrat-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-LightItalic.ttf"; sourceTree = "<group>"; };
+		E668B2A626B9C7CA00BA0E6D /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		E668B2A726B9C7CA00BA0E6D /* Montserrat-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BoldItalic.ttf"; sourceTree = "<group>"; };
+		E668B2A826B9C7CA00BA0E6D /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		E668B2A926B9C7CA00BA0E6D /* Montserrat-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ThinItalic.ttf"; sourceTree = "<group>"; };
+		E668B2AA26B9C7CA00BA0E6D /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; };
+		E668B2AB26B9C7CA00BA0E6D /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Thin.ttf"; sourceTree = "<group>"; };
+		E668B2AC26B9C7CA00BA0E6D /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		E668B2AD26B9C7CA00BA0E6D /* Montserrat-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-MediumItalic.ttf"; sourceTree = "<group>"; };
+		E668B2AE26B9C7CA00BA0E6D /* Montserrat-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BlackItalic.ttf"; sourceTree = "<group>"; };
+		E668B2AF26B9C7CA00BA0E6D /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		E668B2B026B9C7CA00BA0E6D /* Montserrat-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		E668B2B126B9C7CA00BA0E6D /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
+		E668B2B226B9C7CA00BA0E6D /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		E668B2B326B9C7CA00BA0E6D /* Montserrat-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.ttf"; sourceTree = "<group>"; };
+		E668B2B426B9C7CA00BA0E6D /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		E668B2B526B9C7CA00BA0E6D /* Montserrat-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Italic.ttf"; sourceTree = "<group>"; };
+		E668B2B626B9C7CA00BA0E6D /* Montserrat-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		E668B2B726B9C7CA00BA0E6D /* Montserrat-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		E668B2BB26B9C7CA00BA0E6D /* NotificationDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationDelegate.swift; sourceTree = "<group>"; };
+		E668B2BC26B9C7CA00BA0E6D /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		E668B2BD26B9C7CA00BA0E6D /* FontChange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontChange.swift; sourceTree = "<group>"; };
+		E668B2BF26B9C7CA00BA0E6D /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
+		E668B2F526B9C7DD00BA0E6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E668B2F726B9C7DD00BA0E6D /* logo_animated.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = logo_animated.gif; sourceTree = "<group>"; };
+		E668B31626B9C7DD00BA0E6D /* LaunchVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchVC.swift; sourceTree = "<group>"; };
+		E668B32326B9C7DD00BA0E6D /* ForgotPasswordVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVC.swift; sourceTree = "<group>"; };
+		E668B32526B9C7DD00BA0E6D /* ForgotPasswordModal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordModal.swift; sourceTree = "<group>"; };
+		E668B34026B9C7DD00BA0E6D /* CheckMailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckMailVC.swift; sourceTree = "<group>"; };
+		E668B36926B9C7DD00BA0E6D /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		E668B36B26B9C7DD00BA0E6D /* LoginModal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginModal.swift; sourceTree = "<group>"; };
+		E668B37126B9C7DD00BA0E6D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E668B37426B9C7DD00BA0E6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E668B37526B9C7DD00BA0E6D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		E668B3C426B9C8F900BA0E6D /* Telga_Practical_Nirzar-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Telga_Practical_Nirzar-Bridging-Header.h"; sourceTree = "<group>"; };
+		E668B3C626B9D16700BA0E6D /* DashboardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E668B24426B9C71700BA0E6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2A4905F9BA727BCAF11CAD4 /* Pods_Telga_Practical_Nirzar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E668B25A26B9C71A00BA0E6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E668B26526B9C71A00BA0E6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		297D2CAF7C675DB3ECFF2990 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				918C6000D717543952B14AA0 /* Pods-Telga_Practical_Nirzar.debug.xcconfig */,
+				47276DCFA8F70ED92EA268FD /* Pods-Telga_Practical_Nirzar.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E668B23E26B9C71700BA0E6D = {
+			isa = PBXGroup;
+			children = (
+				E668B24826B9C71700BA0E6D /* Products */,
+				E668B24926B9C71700BA0E6D /* Telga_Practical_Nirzar */,
+				E668B26026B9C71A00BA0E6D /* Telga_Practical_NirzarTests */,
+				E668B26B26B9C71A00BA0E6D /* Telga_Practical_NirzarUITests */,
+				297D2CAF7C675DB3ECFF2990 /* Pods */,
+				EB72814A5FB64D0AFA860C40 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E668B24826B9C71700BA0E6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E668B24726B9C71700BA0E6D /* Telga_Practical_Nirzar.app */,
+				E668B25D26B9C71A00BA0E6D /* Telga_Practical_NirzarTests.xctest */,
+				E668B26826B9C71A00BA0E6D /* Telga_Practical_NirzarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E668B24926B9C71700BA0E6D /* Telga_Practical_Nirzar */ = {
+			isa = PBXGroup;
+			children = (
+				E668B37026B9C7DD00BA0E6D /* AppDelegate */,
+				E668B2BE26B9C7CA00BA0E6D /* Colors */,
+				E668B37226B9C7DD00BA0E6D /* Designs */,
+				E668B27C26B9C7CA00BA0E6D /* Helper */,
+				E668B2F426B9C7DD00BA0E6D /* Images */,
+				E668B25826B9C71900BA0E6D /* Info.plist */,
+				E668B2F826B9C7DD00BA0E6D /* Modules */,
+			);
+			path = Telga_Practical_Nirzar;
+			sourceTree = "<group>";
+		};
+		E668B26026B9C71A00BA0E6D /* Telga_Practical_NirzarTests */ = {
+			isa = PBXGroup;
+			children = (
+				E668B26126B9C71A00BA0E6D /* Telga_Practical_NirzarTests.swift */,
+				E668B26326B9C71A00BA0E6D /* Info.plist */,
+			);
+			path = Telga_Practical_NirzarTests;
+			sourceTree = "<group>";
+		};
+		E668B26B26B9C71A00BA0E6D /* Telga_Practical_NirzarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E668B26C26B9C71A00BA0E6D /* Telga_Practical_NirzarUITests.swift */,
+				E668B26E26B9C71A00BA0E6D /* Info.plist */,
+			);
+			path = Telga_Practical_NirzarUITests;
+			sourceTree = "<group>";
+		};
+		E668B27C26B9C7CA00BA0E6D /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				E668B27D26B9C7CA00BA0E6D /* ApiCall */,
+				E668B29626B9C7CA00BA0E6D /* Constants */,
+				E668B28326B9C7CA00BA0E6D /* Extension */,
+				E668B2A426B9C7CA00BA0E6D /* Fonts */,
+				E668B29426B9C7CA00BA0E6D /* GeoFence Location */,
+				E668B2B826B9C7CA00BA0E6D /* HeaderFile */,
+				E668B28026B9C7CA00BA0E6D /* JsonSerializerSwift */,
+				E668B29D26B9C7CA00BA0E6D /* Reachability */,
+				E668B29826B9C7CA00BA0E6D /* SideMenu */,
+				E668B2BA26B9C7CA00BA0E6D /* Utility */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		E668B27D26B9C7CA00BA0E6D /* ApiCall */ = {
+			isa = PBXGroup;
+			children = (
+				E668B27E26B9C7CA00BA0E6D /* ApiCall.swift */,
+				E668B27F26B9C7CA00BA0E6D /* MultiPart.swift */,
+			);
+			path = ApiCall;
+			sourceTree = "<group>";
+		};
+		E668B28026B9C7CA00BA0E6D /* JsonSerializerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				E668B28126B9C7CA00BA0E6D /* JsonSerializerSwift.h */,
+				E668B28226B9C7CA00BA0E6D /* JsonSerializer.swift */,
+			);
+			path = JsonSerializerSwift;
+			sourceTree = "<group>";
+		};
+		E668B28326B9C7CA00BA0E6D /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E668B28426B9C7CA00BA0E6D /* ArrayExtensions.swift */,
+				E668B28626B9C7CA00BA0E6D /* ColorChange.swift */,
+				E668B28926B9C7CA00BA0E6D /* CustomSegmentedControl.swift */,
+				E668B29226B9C7CA00BA0E6D /* DateExtensions.swift */,
+				E668B28826B9C7CA00BA0E6D /* DictionaryExtensions.swift */,
+				E668B28E26B9C7CA00BA0E6D /* DoubleExtensions.swift */,
+				E668B28D26B9C7CA00BA0E6D /* Extension.swift */,
+				E668B28C26B9C7CA00BA0E6D /* ExtensionImagePickerOption.swift */,
+				E668B28526B9C7CA00BA0E6D /* FloatExtensions.swift */,
+				E668B29126B9C7CA00BA0E6D /* IntExtensions.swift */,
+				E668B29026B9C7CA00BA0E6D /* MonthYearPickerView.swift */,
+				E668B29326B9C7CA00BA0E6D /* OptionalExtensions.swift */,
+				E668B28726B9C7CA00BA0E6D /* PlaceholderTextView.swift */,
+				E668B28A26B9C7CA00BA0E6D /* StringExtensions.swift */,
+				E668B28B26B9C7CA00BA0E6D /* UIViewControllerExtension.swift */,
+				E668B28F26B9C7CA00BA0E6D /* ViewExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		E668B29426B9C7CA00BA0E6D /* GeoFence Location */ = {
+			isa = PBXGroup;
+			children = (
+				E668B29526B9C7CA00BA0E6D /* GeoFencingManager.swift */,
+			);
+			path = "GeoFence Location";
+			sourceTree = "<group>";
+		};
+		E668B29626B9C7CA00BA0E6D /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				E668B29726B9C7CA00BA0E6D /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		E668B29826B9C7CA00BA0E6D /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				E668B29926B9C7CA00BA0E6D /* UISideMenuNavigationController.swift */,
+				E668B29A26B9C7CA00BA0E6D /* SideMenuManager.swift */,
+				E668B29B26B9C7CA00BA0E6D /* SideMenuTransition.swift */,
+				E668B29C26B9C7CA00BA0E6D /* UITableViewVibrantCell.swift */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		E668B29D26B9C7CA00BA0E6D /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				E668B29E26B9C7CA00BA0E6D /* ConnectionCheck.swift */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		E668B2A426B9C7CA00BA0E6D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E668B2A526B9C7CA00BA0E6D /* Montserrat-LightItalic.ttf */,
+				E668B2A626B9C7CA00BA0E6D /* Montserrat-Medium.ttf */,
+				E668B2A726B9C7CA00BA0E6D /* Montserrat-BoldItalic.ttf */,
+				E668B2A826B9C7CA00BA0E6D /* Montserrat-Light.ttf */,
+				E668B2A926B9C7CA00BA0E6D /* Montserrat-ThinItalic.ttf */,
+				E668B2AA26B9C7CA00BA0E6D /* Montserrat-ExtraLight.ttf */,
+				E668B2AB26B9C7CA00BA0E6D /* Montserrat-Thin.ttf */,
+				E668B2AC26B9C7CA00BA0E6D /* Montserrat-Bold.ttf */,
+				E668B2AD26B9C7CA00BA0E6D /* Montserrat-MediumItalic.ttf */,
+				E668B2AE26B9C7CA00BA0E6D /* Montserrat-BlackItalic.ttf */,
+				E668B2AF26B9C7CA00BA0E6D /* Montserrat-SemiBold.ttf */,
+				E668B2B026B9C7CA00BA0E6D /* Montserrat-ExtraLightItalic.ttf */,
+				E668B2B126B9C7CA00BA0E6D /* Montserrat-ExtraBold.ttf */,
+				E668B2B226B9C7CA00BA0E6D /* OFL.txt */,
+				E668B2B326B9C7CA00BA0E6D /* Montserrat-Black.ttf */,
+				E668B2B426B9C7CA00BA0E6D /* Montserrat-Regular.ttf */,
+				E668B2B526B9C7CA00BA0E6D /* Montserrat-Italic.ttf */,
+				E668B2B626B9C7CA00BA0E6D /* Montserrat-SemiBoldItalic.ttf */,
+				E668B2B726B9C7CA00BA0E6D /* Montserrat-ExtraBoldItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		E668B2B826B9C7CA00BA0E6D /* HeaderFile */ = {
+			isa = PBXGroup;
+			children = (
+				E668B3C426B9C8F900BA0E6D /* Telga_Practical_Nirzar-Bridging-Header.h */,
+			);
+			path = HeaderFile;
+			sourceTree = "<group>";
+		};
+		E668B2BA26B9C7CA00BA0E6D /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				E668B2BD26B9C7CA00BA0E6D /* FontChange.swift */,
+				E668B2BB26B9C7CA00BA0E6D /* NotificationDelegate.swift */,
+				E668B2BC26B9C7CA00BA0E6D /* Utility.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		E668B2BE26B9C7CA00BA0E6D /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				E668B2BF26B9C7CA00BA0E6D /* Color.xcassets */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		E668B2F426B9C7DD00BA0E6D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E668B2F526B9C7DD00BA0E6D /* Assets.xcassets */,
+				E668B2F626B9C7DD00BA0E6D /* GIF Images */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		E668B2F626B9C7DD00BA0E6D /* GIF Images */ = {
+			isa = PBXGroup;
+			children = (
+				E668B2F726B9C7DD00BA0E6D /* logo_animated.gif */,
+			);
+			path = "GIF Images";
+			sourceTree = "<group>";
+		};
+		E668B2F826B9C7DD00BA0E6D /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				E668B33F26B9C7DD00BA0E6D /* Check Mail */,
+				E668B3C526B9D14F00BA0E6D /* Dashboard */,
+				E668B32226B9C7DD00BA0E6D /* Forgot Password */,
+				E668B31526B9C7DD00BA0E6D /* Launch */,
+				E668B36826B9C7DD00BA0E6D /* Login */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		E668B31526B9C7DD00BA0E6D /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				E668B31626B9C7DD00BA0E6D /* LaunchVC.swift */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		E668B32226B9C7DD00BA0E6D /* Forgot Password */ = {
+			isa = PBXGroup;
+			children = (
+				E668B32326B9C7DD00BA0E6D /* ForgotPasswordVC.swift */,
+				E668B32426B9C7DD00BA0E6D /* Modal */,
+			);
+			path = "Forgot Password";
+			sourceTree = "<group>";
+		};
+		E668B32426B9C7DD00BA0E6D /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				E668B32526B9C7DD00BA0E6D /* ForgotPasswordModal.swift */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		E668B33F26B9C7DD00BA0E6D /* Check Mail */ = {
+			isa = PBXGroup;
+			children = (
+				E668B34026B9C7DD00BA0E6D /* CheckMailVC.swift */,
+			);
+			path = "Check Mail";
+			sourceTree = "<group>";
+		};
+		E668B36826B9C7DD00BA0E6D /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				E668B36926B9C7DD00BA0E6D /* LoginVC.swift */,
+				E668B36A26B9C7DD00BA0E6D /* Modal */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		E668B36A26B9C7DD00BA0E6D /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				E668B36B26B9C7DD00BA0E6D /* LoginModal.swift */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		E668B37026B9C7DD00BA0E6D /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				E668B37126B9C7DD00BA0E6D /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		E668B37226B9C7DD00BA0E6D /* Designs */ = {
+			isa = PBXGroup;
+			children = (
+				E668B37326B9C7DD00BA0E6D /* LaunchScreen.storyboard */,
+				E668B37526B9C7DD00BA0E6D /* Main.storyboard */,
+			);
+			path = Designs;
+			sourceTree = "<group>";
+		};
+		E668B3C526B9D14F00BA0E6D /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				E668B3C626B9D16700BA0E6D /* DashboardVC.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		EB72814A5FB64D0AFA860C40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0EF8F07A297EA703CC94621 /* Pods_Telga_Practical_Nirzar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E668B24626B9C71700BA0E6D /* Telga_Practical_Nirzar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E668B27126B9C71A00BA0E6D /* Build configuration list for PBXNativeTarget "Telga_Practical_Nirzar" */;
+			buildPhases = (
+				CE26069CA8F80F59FB0F32DA /* [CP] Check Pods Manifest.lock */,
+				E668B24326B9C71700BA0E6D /* Sources */,
+				E668B24426B9C71700BA0E6D /* Frameworks */,
+				E668B24526B9C71700BA0E6D /* Resources */,
+				E0E0DA1FBB94A8D79433FDB4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Telga_Practical_Nirzar;
+			productName = Telga_Practical_Nirzar;
+			productReference = E668B24726B9C71700BA0E6D /* Telga_Practical_Nirzar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E668B25C26B9C71A00BA0E6D /* Telga_Practical_NirzarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E668B27426B9C71A00BA0E6D /* Build configuration list for PBXNativeTarget "Telga_Practical_NirzarTests" */;
+			buildPhases = (
+				E668B25926B9C71A00BA0E6D /* Sources */,
+				E668B25A26B9C71A00BA0E6D /* Frameworks */,
+				E668B25B26B9C71A00BA0E6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E668B25F26B9C71A00BA0E6D /* PBXTargetDependency */,
+			);
+			name = Telga_Practical_NirzarTests;
+			productName = Telga_Practical_NirzarTests;
+			productReference = E668B25D26B9C71A00BA0E6D /* Telga_Practical_NirzarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E668B26726B9C71A00BA0E6D /* Telga_Practical_NirzarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E668B27726B9C71A00BA0E6D /* Build configuration list for PBXNativeTarget "Telga_Practical_NirzarUITests" */;
+			buildPhases = (
+				E668B26426B9C71A00BA0E6D /* Sources */,
+				E668B26526B9C71A00BA0E6D /* Frameworks */,
+				E668B26626B9C71A00BA0E6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E668B26A26B9C71A00BA0E6D /* PBXTargetDependency */,
+			);
+			name = Telga_Practical_NirzarUITests;
+			productName = Telga_Practical_NirzarUITests;
+			productReference = E668B26826B9C71A00BA0E6D /* Telga_Practical_NirzarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E668B23F26B9C71700BA0E6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					E668B24626B9C71700BA0E6D = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					E668B25C26B9C71A00BA0E6D = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = E668B24626B9C71700BA0E6D;
+					};
+					E668B26726B9C71A00BA0E6D = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = E668B24626B9C71700BA0E6D;
+					};
+				};
+			};
+			buildConfigurationList = E668B24226B9C71700BA0E6D /* Build configuration list for PBXProject "Telga_Practical_Nirzar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E668B23E26B9C71700BA0E6D;
+			productRefGroup = E668B24826B9C71700BA0E6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E668B24626B9C71700BA0E6D /* Telga_Practical_Nirzar */,
+				E668B25C26B9C71A00BA0E6D /* Telga_Practical_NirzarTests */,
+				E668B26726B9C71A00BA0E6D /* Telga_Practical_NirzarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E668B24526B9C71700BA0E6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E668B2E926B9C7CA00BA0E6D /* Montserrat-ExtraBold.ttf in Resources */,
+				E668B2E626B9C7CA00BA0E6D /* Montserrat-BlackItalic.ttf in Resources */,
+				E668B37826B9C7DD00BA0E6D /* Assets.xcassets in Resources */,
+				E668B2E526B9C7CA00BA0E6D /* Montserrat-MediumItalic.ttf in Resources */,
+				E668B2DF26B9C7CA00BA0E6D /* Montserrat-BoldItalic.ttf in Resources */,
+				E668B37926B9C7DD00BA0E6D /* logo_animated.gif in Resources */,
+				E668B2ED26B9C7CA00BA0E6D /* Montserrat-Italic.ttf in Resources */,
+				E668B2EF26B9C7CA00BA0E6D /* Montserrat-ExtraBoldItalic.ttf in Resources */,
+				E668B3C026B9C7DD00BA0E6D /* LaunchScreen.storyboard in Resources */,
+				E668B2E026B9C7CA00BA0E6D /* Montserrat-Light.ttf in Resources */,
+				E668B2EC26B9C7CA00BA0E6D /* Montserrat-Regular.ttf in Resources */,
+				E668B2E126B9C7CA00BA0E6D /* Montserrat-ThinItalic.ttf in Resources */,
+				E668B2DD26B9C7CA00BA0E6D /* Montserrat-LightItalic.ttf in Resources */,
+				E668B2EE26B9C7CA00BA0E6D /* Montserrat-SemiBoldItalic.ttf in Resources */,
+				E668B2E826B9C7CA00BA0E6D /* Montserrat-ExtraLightItalic.ttf in Resources */,
+				E668B2E726B9C7CA00BA0E6D /* Montserrat-SemiBold.ttf in Resources */,
+				E668B2EB26B9C7CA00BA0E6D /* Montserrat-Black.ttf in Resources */,
+				E668B2F326B9C7CA00BA0E6D /* Color.xcassets in Resources */,
+				E668B2EA26B9C7CA00BA0E6D /* OFL.txt in Resources */,
+				E668B2E326B9C7CA00BA0E6D /* Montserrat-Thin.ttf in Resources */,
+				E668B2E426B9C7CA00BA0E6D /* Montserrat-Bold.ttf in Resources */,
+				E668B3C126B9C7DD00BA0E6D /* Main.storyboard in Resources */,
+				E668B2DE26B9C7CA00BA0E6D /* Montserrat-Medium.ttf in Resources */,
+				E668B2E226B9C7CA00BA0E6D /* Montserrat-ExtraLight.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E668B25B26B9C71A00BA0E6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E668B26626B9C71A00BA0E6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CE26069CA8F80F59FB0F32DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Telga_Practical_Nirzar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0E0DA1FBB94A8D79433FDB4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Telga_Practical_Nirzar/Pods-Telga_Practical_Nirzar-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Telga_Practical_Nirzar/Pods-Telga_Practical_Nirzar-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Telga_Practical_Nirzar/Pods-Telga_Practical_Nirzar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E668B24326B9C71700BA0E6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E668B2C526B9C7CA00BA0E6D /* ColorChange.swift in Sources */,
+				E668B2D426B9C7CA00BA0E6D /* Constants.swift in Sources */,
+				E668B2C126B9C7CA00BA0E6D /* MultiPart.swift in Sources */,
+				E668B2C726B9C7CA00BA0E6D /* DictionaryExtensions.swift in Sources */,
+				E668B2D726B9C7CA00BA0E6D /* SideMenuTransition.swift in Sources */,
+				E668B2CB26B9C7CA00BA0E6D /* ExtensionImagePickerOption.swift in Sources */,
+				E668B2C826B9C7CA00BA0E6D /* CustomSegmentedControl.swift in Sources */,
+				E668B2C326B9C7CA00BA0E6D /* ArrayExtensions.swift in Sources */,
+				E668B2F226B9C7CA00BA0E6D /* FontChange.swift in Sources */,
+				E668B38A26B9C7DD00BA0E6D /* LaunchVC.swift in Sources */,
+				E668B3C726B9D16700BA0E6D /* DashboardVC.swift in Sources */,
+				E668B2D826B9C7CA00BA0E6D /* UITableViewVibrantCell.swift in Sources */,
+				E668B2D126B9C7CA00BA0E6D /* DateExtensions.swift in Sources */,
+				E668B2CE26B9C7CA00BA0E6D /* ViewExtension.swift in Sources */,
+				E668B39326B9C7DD00BA0E6D /* ForgotPasswordModal.swift in Sources */,
+				E668B2C426B9C7CA00BA0E6D /* FloatExtensions.swift in Sources */,
+				E668B2CD26B9C7CA00BA0E6D /* DoubleExtensions.swift in Sources */,
+				E668B2D026B9C7CA00BA0E6D /* IntExtensions.swift in Sources */,
+				E668B39226B9C7DD00BA0E6D /* ForgotPasswordVC.swift in Sources */,
+				E668B2C926B9C7CA00BA0E6D /* StringExtensions.swift in Sources */,
+				E668B2D626B9C7CA00BA0E6D /* SideMenuManager.swift in Sources */,
+				E668B2C026B9C7CA00BA0E6D /* ApiCall.swift in Sources */,
+				E668B2D226B9C7CA00BA0E6D /* OptionalExtensions.swift in Sources */,
+				E668B2CC26B9C7CA00BA0E6D /* Extension.swift in Sources */,
+				E668B2CA26B9C7CA00BA0E6D /* UIViewControllerExtension.swift in Sources */,
+				E668B2CF26B9C7CA00BA0E6D /* MonthYearPickerView.swift in Sources */,
+				E668B2D326B9C7CA00BA0E6D /* GeoFencingManager.swift in Sources */,
+				E668B2C226B9C7CA00BA0E6D /* JsonSerializer.swift in Sources */,
+				E668B3BB26B9C7DD00BA0E6D /* LoginVC.swift in Sources */,
+				E668B2F026B9C7CA00BA0E6D /* NotificationDelegate.swift in Sources */,
+				E668B3BC26B9C7DD00BA0E6D /* LoginModal.swift in Sources */,
+				E668B2F126B9C7CA00BA0E6D /* Utility.swift in Sources */,
+				E668B3A126B9C7DD00BA0E6D /* CheckMailVC.swift in Sources */,
+				E668B2D926B9C7CA00BA0E6D /* ConnectionCheck.swift in Sources */,
+				E668B3BF26B9C7DD00BA0E6D /* AppDelegate.swift in Sources */,
+				E668B2C626B9C7CA00BA0E6D /* PlaceholderTextView.swift in Sources */,
+				E668B2D526B9C7CA00BA0E6D /* UISideMenuNavigationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E668B25926B9C71A00BA0E6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E668B26226B9C71A00BA0E6D /* Telga_Practical_NirzarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E668B26426B9C71A00BA0E6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E668B26D26B9C71A00BA0E6D /* Telga_Practical_NirzarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E668B25F26B9C71A00BA0E6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E668B24626B9C71700BA0E6D /* Telga_Practical_Nirzar */;
+			targetProxy = E668B25E26B9C71A00BA0E6D /* PBXContainerItemProxy */;
+		};
+		E668B26A26B9C71A00BA0E6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E668B24626B9C71700BA0E6D /* Telga_Practical_Nirzar */;
+			targetProxy = E668B26926B9C71A00BA0E6D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E668B37326B9C7DD00BA0E6D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E668B37426B9C7DD00BA0E6D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E668B26F26B9C71A00BA0E6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E668B27026B9C71A00BA0E6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E668B27226B9C71A00BA0E6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 918C6000D717543952B14AA0 /* Pods-Telga_Practical_Nirzar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1.0;
+				DEVELOPMENT_TEAM = 7VPF9C254N;
+				INFOPLIST_FILE = Telga_Practical_Nirzar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dexterapps.TelgaPractical;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Dexter Apps";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Telga_Practical_Nirzar/Helper/HeaderFile/Telga_Practical_Nirzar-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E668B27326B9C71A00BA0E6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47276DCFA8F70ED92EA268FD /* Pods-Telga_Practical_Nirzar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1.0;
+				DEVELOPMENT_TEAM = 7VPF9C254N;
+				INFOPLIST_FILE = Telga_Practical_Nirzar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dexterapps.TelgaPractical;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Dexter Apps";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Telga_Practical_Nirzar/Helper/HeaderFile/Telga_Practical_Nirzar-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		E668B27526B9C71A00BA0E6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Telga_Practical_NirzarTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Telga-Practical-NirzarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Telga_Practical_Nirzar.app/Telga_Practical_Nirzar";
+			};
+			name = Debug;
+		};
+		E668B27626B9C71A00BA0E6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Telga_Practical_NirzarTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Telga-Practical-NirzarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Telga_Practical_Nirzar.app/Telga_Practical_Nirzar";
+			};
+			name = Release;
+		};
+		E668B27826B9C71A00BA0E6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Telga_Practical_NirzarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Telga-Practical-NirzarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Telga_Practical_Nirzar;
+			};
+			name = Debug;
+		};
+		E668B27926B9C71A00BA0E6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Telga_Practical_NirzarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Telga-Practical-NirzarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Telga_Practical_Nirzar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E668B24226B9C71700BA0E6D /* Build configuration list for PBXProject "Telga_Practical_Nirzar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E668B26F26B9C71A00BA0E6D /* Debug */,
+				E668B27026B9C71A00BA0E6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E668B27126B9C71A00BA0E6D /* Build configuration list for PBXNativeTarget "Telga_Practical_Nirzar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E668B27226B9C71A00BA0E6D /* Debug */,
+				E668B27326B9C71A00BA0E6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E668B27426B9C71A00BA0E6D /* Build configuration list for PBXNativeTarget "Telga_Practical_NirzarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E668B27526B9C71A00BA0E6D /* Debug */,
+				E668B27626B9C71A00BA0E6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E668B27726B9C71A00BA0E6D /* Build configuration list for PBXNativeTarget "Telga_Practical_NirzarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E668B27826B9C71A00BA0E6D /* Debug */,
+				E668B27926B9C71A00BA0E6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E668B23F26B9C71700BA0E6D /* Project object */;
+}

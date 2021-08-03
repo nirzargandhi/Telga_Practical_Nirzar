@@ -1,0 +1,6 @@
+framework module Pods_Telga_Practical_Nirzar {
+  umbrella header "Pods-Telga_Practical_Nirzar-umbrella.h"
+
+  export *
+  module * { export * }
+}
