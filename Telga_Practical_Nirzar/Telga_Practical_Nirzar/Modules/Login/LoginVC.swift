@@ -1,8 +1,8 @@
 //
 //  LoginVC.swift
-//  SmartWorkx
+//  Telga_Practical_Nirzar
 //
-//  Created by Nirzar Gandhi on 20/07/21.
+//  Created by Nirzar Gandhi on 04/08/21.
 //
 
 class LoginVC: UIViewController {

@@ -923,7 +923,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.dexterapps.TelgaPractical;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deve.telga-practical-nirzar";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "Dexter Apps";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Telga_Practical_Nirzar/Helper/HeaderFile/Telga_Practical_Nirzar-Bridging-Header.h";
@@ -948,7 +948,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.dexterapps.TelgaPractical;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deve.telga-practical-nirzar";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "Dexter Apps";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Telga_Practical_Nirzar/Helper/HeaderFile/Telga_Practical_Nirzar-Bridging-Header.h";
